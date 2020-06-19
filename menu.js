@@ -5,4 +5,5 @@
     // Toggle class "is-active"
     hamburger.classList.toggle("is-active");
     // Do something else, like open/close menu
+    document.querySelector("nav").classList.toggle("active");
   });

@@ -19,7 +19,7 @@
         height:100%;
         margin:0;
         position:fixed;
-        left:-100%; /*El menu desplegable se escuentra escondido en la izquierda nada mas entrar en la web*/
+        left:-21%; /*El menu desplegable se escuentra escondido en la izquierda nada mas entrar en la web*/
     }
     header nav ul{
         overflow:hidden;
@@ -453,4 +453,11 @@ footer{
     }
 }
     
-    
+nav {
+    transition: left 1s;
+    left: -21%;
+}
+
+nav.active {
+    left: 0px;
+}
